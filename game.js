@@ -159,10 +159,10 @@ function zhuge(){
 		this.check = function(){
 		    // Clear the canvas
 		    canvas.width = canvas.width;
-		    
+		    this.health = this.health >0?this.health:0;
 		    // Calculate health bar percent
 		    var percent = this.health / maxHealth;
-		    percent = percent>0?percent:0;
+		    
 
 		    context.fillStyle = "Red";
 		    context.font = "18px sans-serif";
@@ -199,10 +199,10 @@ function zhuge(){
 		this.check = function(){
 		    // Clear the canvas
 		    canvas.width = canvas.width;
+		    this.health = this.health >0?this.health:0;
 		    
 		    // Calculate health bar percent
 		    var percent = this.health / maxHealth;
-		    percent = percent>0?percent:0;
 
 		    context.fillStyle = "Red";
 		    context.font = "18px sans-serif";
