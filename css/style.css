@@ -1,0 +1,43 @@
+#zhuge{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-top: 10px;
+	text-align: center;
+}
+#stage{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin-top: 10px;
+	border: 1px solid gray;
+	text-align: center;
+	padding: 10px;
+}
+#wangsitu{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-top: 10px;
+	text-align: center;
+}
+#zgl{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 1px solid red;
+	padding: 5px;
+}
+#wst{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 1px solid blue;
+	padding: 5px;
+}
+#stage{
+	border-radius: 20px;
+}
+.stage_gif{
+	width: 90%;
+}
