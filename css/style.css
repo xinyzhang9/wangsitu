@@ -8,7 +8,7 @@
 #stage{
 	display: inline-block;
 	vertical-align: top;
-	width: 30%;
+	width: 40%;
 	margin-top: 10px;
 	border: 2px solid gray;
 	text-align: center;
@@ -42,4 +42,19 @@
 	width: 100%;
 	height: 250px;
 	border-radius: 20px;
+	margin-bottom: 10px;
+
+}
+button{
+	border-radius: 50%
+}
+.footer{
+	text-align: center;
+	display: inline-block;
+	width: 40%;
+
+}
+.space{
+	width: 20%;
+	display:inline-block;
 }
