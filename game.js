@@ -5,6 +5,8 @@ function playGround(){
 	var count2 = 0;
 	isPlay = true;
 	this.initialize = function(){
+		var bgm = new Audio('assets/mp3/preshow.mp3');
+		bgm.play();
 		$(document).keydown(function(e){
 			if(e.keyCode == 81 && isPlay){ //q
 				document.getElementById('stage_gif').src = "assets/gif/action_10.gif";
