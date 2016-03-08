@@ -7,74 +7,74 @@ function playGround(){
 	this.initialize = function(){
 		$(document).keydown(function(e){
 			if(e.keyCode == 81 && isPlay){ //q
-				document.getElementById('stage_gif').src = "assests/gif/action_10.gif";
+				document.getElementById('stage_gif').src = "assets/gif/action_10.gif";
 				ch2.health-=2;
-				var audio = new Audio('assests/mp3/zhuge_haha.mp3');
+				var audio = new Audio('assets/mp3/zhuge_haha.mp3');
 				audio.play();
 			}else if(e.keyCode == 87 && isPlay){ //w
-				document.getElementById('stage_gif').src = "assests/gif/action_11.gif";	
+				document.getElementById('stage_gif').src = "assets/gif/action_11.gif";	
 				ch2.health-=5;
 				ch1.health = ch1.health <90?ch1.health+10:100
-				var audio = new Audio('assests/mp3/raoshe.mp3');
+				var audio = new Audio('assets/mp3/raoshe.mp3');
 				audio.play();			
 			}else if(e.keyCode == 69 && isPlay){ //e
-				document.getElementById('stage_gif').src = "assests/gif/action_9.gif";	
+				document.getElementById('stage_gif').src = "assets/gif/action_9.gif";	
 				ch2.health-=10;
-				var audio = new Audio('assests/mp3/wuchilaozei.mp3');
+				var audio = new Audio('assets/mp3/wuchilaozei.mp3');
 				audio.play();
-				var audio2 = new Audio('assests/mp3/wangwangwang.mp3');
+				var audio2 = new Audio('assets/mp3/wangwangwang.mp3');
 				audio2.play();			
 			}else if(e.keyCode == 65 && isPlay){ //a
-				document.getElementById('stage_gif').src = "assests/gif/action_8.gif";	
+				document.getElementById('stage_gif').src = "assets/gif/action_8.gif";	
 				ch2.health-=5;
-				var audio = new Audio('assests/mp3/qinshou.mp3');
+				var audio = new Audio('assets/mp3/qinshou.mp3');
 				audio.play();	
 			}else if(e.keyCode == 83 && isPlay){ //s
-				document.getElementById('stage_gif').src = "assests/gif/action_6.gif";	
+				document.getElementById('stage_gif').src = "assets/gif/action_6.gif";	
 				ch2.health-=30;
-				var audio = new Audio('assests/mp3/houyanwuchi.mp3');
+				var audio = new Audio('assets/mp3/houyanwuchi.mp3');
 				audio.play();			
 			}else if(e.keyCode == 68 && isPlay){ //d
-				document.getElementById('stage_gif').src = "assests/gif/action_14.gif";
+				document.getElementById('stage_gif').src = "assets/gif/action_14.gif";
 				ch1.health-=10;
 				ch2.health-=10;
-				var audio = new Audio('assests/mp3/wang_hehe.mp3');
+				var audio = new Audio('assets/mp3/wang_hehe.mp3');
 				audio.play();
-				var audio2 = new Audio('assests/mp3/zhuge_haha.mp3');
+				var audio2 = new Audio('assets/mp3/zhuge_haha.mp3');
 				audio2.play();	
 
 
 			}else if(e.keyCode == 73 && isPlay){ //i
-				document.getElementById('stage_gif').src = "assests/gif/action_13.gif";	
+				document.getElementById('stage_gif').src = "assets/gif/action_13.gif";	
 				ch1.health-=5;
-				var audio = new Audio('assests/mp3/kongming.mp3');
+				var audio = new Audio('assets/mp3/kongming.mp3');
 				audio.play();				
 			}else if(e.keyCode == 79 && isPlay){ //o
-				document.getElementById('stage_gif').src = "assests/gif/action_7.gif";	
+				document.getElementById('stage_gif').src = "assets/gif/action_7.gif";	
 				ch2.health = ch2.health<=90?ch2.health+10:100;
-				var audio = new Audio('assests/mp3/wang_hehe.mp3');
+				var audio = new Audio('assets/mp3/wang_hehe.mp3');
 				audio.play();			
 			}else if(e.keyCode == 80 && isPlay){ //p
-				document.getElementById('stage_gif').src = "assests/gif/action_12.gif";	
+				document.getElementById('stage_gif').src = "assets/gif/action_12.gif";	
 				ch1.health -= 7;
-				var audio = new Audio('assests/mp3/niruo.mp3');
+				var audio = new Audio('assets/mp3/niruo.mp3');
 				audio.play();
 			}else if(e.keyCode == 74 && isPlay){ //j
-				document.getElementById('stage_gif').src = "assests/gif/action_1.gif";	
+				document.getElementById('stage_gif').src = "assets/gif/action_1.gif";	
 				ch1.health -= 10;
-				var audio = new Audio('assests/mp3/yizhiwangba.mp3');
+				var audio = new Audio('assets/mp3/yizhiwangba.mp3');
 				audio.play();			
 			}else if(e.keyCode == 75 && isPlay){ //k
-				document.getElementById('stage_gif').src = "assests/gif/action_5.gif";	
+				document.getElementById('stage_gif').src = "assets/gif/action_5.gif";	
 				ch1.health -= 10;
-				var audio = new Audio('assests/mp3/zhugecunfu.mp3');
+				var audio = new Audio('assets/mp3/zhugecunfu.mp3');
 				audio.play();	
-				var audio2 = new Audio('assests/mp3/zhukou.mp3');
+				var audio2 = new Audio('assets/mp3/zhukou.mp3');
 				audio2.play();		
 			}else if(e.keyCode == 76 && isPlay){ //l
-				document.getElementById('stage_gif').src = "assests/gif/action_2.gif";	
+				document.getElementById('stage_gif').src = "assets/gif/action_2.gif";	
 				ch1.health -= 20;
-				var audio = new Audio('assests/mp3/wang_die.mp3');
+				var audio = new Audio('assets/mp3/wang_die.mp3');
 				audio.play();			
 			}
 		})
@@ -86,16 +86,16 @@ function playGround(){
 		if(!(ch1.isLive && ch2.isLive)){
 			//wangsitu die
 			if(count1 <1 && ch1.isLive){
-				var audio = new Audio('assests/mp3/wang_die.mp3');
+				var audio = new Audio('assets/mp3/wang_die.mp3');
 				audio.play();
-				document.getElementById('wst').src = "assests/img/wangsitu_bw.gif";
+				document.getElementById('wst').src = "assets/img/wangsitu_bw.gif";
 				count1+=1;
 			}
 			//zhuge die
 			if(count2 <1 && ch2.isLive){
-				var audio = new Audio('assests/mp3/zhuge_die.mp3');
+				var audio = new Audio('assets/mp3/zhuge_die.mp3');
 				audio.play();
-				document.getElementById('zgl').src = "assests/img/zhuge_bw.gif";
+				document.getElementById('zgl').src = "assets/img/zhuge_bw.gif";
 				count2+=1;
 			}
 			
@@ -142,7 +142,7 @@ function zhuge(){
 		    context.fillRect(object1.x, object1.y, object1.width * percent, object1.height);
 		    if(this.health <=0){
 		    	this.isLive = false;
-		    	document.getElementById('stage_gif').src = "assests/img/zhuge_die.gif";
+		    	document.getElementById('stage_gif').src = "assets/img/zhuge_die.gif";
 
 		    }
 		}
@@ -183,7 +183,7 @@ function zhuge(){
 
 		    if(this.health <=0){
 		    	this.isLive = false;
-		    	document.getElementById('stage_gif').src = "assests/gif/action_3.gif";
+		    	document.getElementById('stage_gif').src = "assets/gif/action_3.gif";
 
 		    }
 		}
