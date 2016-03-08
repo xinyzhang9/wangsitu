@@ -14,6 +14,7 @@ function playGround(){
 			}else if(e.keyCode == 87 && isPlay){ //w
 				document.getElementById('stage_gif').src = "assests/gif/action_11.gif";	
 				ch2.health-=5;
+				ch1.health = ch1.health <90?ch1.health+10:100
 				var audio = new Audio('assests/mp3/raoshe.mp3');
 				audio.play();			
 			}else if(e.keyCode == 69 && isPlay){ //e
