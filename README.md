@@ -1,6 +1,8 @@
 # Pseudo fight game between Minister.Zhuge and Sir.Wanglang  
 A javascript game developed by xinyang.  
 Both characters are superstars in history and entertainment...  
+live on https://googledrive.com/host/0Bwk9yQOdpG-gQTA5NHdXeGotUTg/index.html  
+
 
 # Command list of Zhuge:  
 Q - magic bloom  
