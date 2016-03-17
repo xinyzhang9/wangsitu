@@ -1,8 +1,8 @@
-# Pseudo fight game between Minister.Zhuge and Sir.Wanglang  
+# Fighting debate between Wangsitu and Zhugeliang  
 A javascript game developed by xinyang.  
-Both characters are superstars in history and entertainment...  
-live on https://googledrive.com/host/0Bwk9yQOdpG-gQTA5NHdXeGotUTg/index.html  
-
+Wangsitu and Zhugeliang had a great debate in Chinese history. Wangsitu lost that debate and fell down the horse. Now he has a second chance to win that debate. The result is up to you.  
+# live on  
+https://wangsitu.xinyangzhang.com  
 
 # Command list of Zhuge:  
 Q - magic bloom  
