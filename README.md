@@ -2,7 +2,7 @@
 A javascript game developed by xinyang.  
 Wangsitu and Zhugeliang had a great debate in Chinese history. Wangsitu lost that debate and fell down the horse. Now he has a second chance to win that debate. The result is up to you.  
 # live on  
-https://wangsitu.xinyangzhang.com  
+http://wangsitu.xinyangzhang.com  
 
 # Command list of Zhuge:  
 Q - magic bloom  
